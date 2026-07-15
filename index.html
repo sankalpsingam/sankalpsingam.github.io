@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sankalp Singam — Technology &amp; Operations Executive</title>
+<meta name="description" content="Technology &amp; operations executive bridging R&amp;D and operations at industrial scale. Autonomy, decarbonisation and operational transformation across Fortescue, Rio Tinto, BHP and Liebherr.">
+<meta property="og:title" content="Sankalp Singam — Technology &amp; Operations Executive">
+<meta property="og:description" content="Bridging R&amp;D and operations at industrial scale. Autonomy, decarbonisation and operational transformation for Fortescue, Rio Tinto, BHP and Liebherr.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="photos/headshot.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&family=Archivo:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="line-art.js"></script>
+<script src="scroll-fx.js"></script>
+<script src="rag-demo.js"></script>
+<template id="__bundler_thumbnail" data-bg-color="#faf8f4">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#faf8f4"/>
+    <text x="600" y="430" text-anchor="middle" font-family="Georgia, serif" font-size="220" font-weight="300" fill="#1c1a16">SS</text>
+    <rect x="480" y="520" width="240" height="4" fill="#a2680f"/>
+  </svg>
+</template>
+<style>
+  html, body { margin: 0; padding: 0; background: #faf8f4; color: #1c1a16; font-family: 'Archivo', sans-serif; }
+  a { color: inherit; text-decoration: none; }
+  a:hover { opacity: .75; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  .wrap { max-width: 1240px; margin: 0 auto; }
+  .work-row { display: grid; grid-template-columns: 48px 1fr 210px 200px; gap: 28px; align-items: center; padding: 30px 0; border-top: 1px solid #e2ddd2; cursor: pointer; }
+  .work-row:hover { background: #f3f0e9; }
+  .work-detail { display: none; padding: 8px 0 32px 76px; gap: 48px; font-size: 14px; line-height: 1.7; color: #57524a; animation: fadeUp .3s ease both; }
+  .work-detail.open { display: flex; }
+  .work-detail span { max-width: 300px; }
+  .kicker { margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: .12em; font-weight: 400; color: #a2680f; }
+  .stat-num { font-family: 'Newsreader', serif; font-size: 36px; font-weight: 400; }
+  .stat-lbl { font-size: 13px; color: #857e71; margin-top: 4px; }
+  #progress { position: fixed; top: 0; left: 0; height: 3px; width: 0; background: #a2680f; z-index: 10; }
+  @media (max-width: 900px) {
+    .work-row { grid-template-columns: 32px 1fr; }
+    .work-row line-art, .work-row .metric { display: none !important; }
+    .hero-grid { grid-template-columns: 1fr !important; align-items: start !important; }
+    .hero-grid img { width: 100% !important; max-width: 340px; height: auto !important; }
+    .stats-grid { grid-template-columns: 1fr 1fr !important; }
+    .stats-grid > div { border-right: none !important; padding-left: 0 !important; }
+    .principles-grid { grid-template-columns: 1fr !important; gap: 28px !important; }
+    .career-grid { grid-template-columns: 1fr 1fr !important; }
+    .career-grid > div { padding-right: 16px !important; }
+    rag-demo { display: flex !important; flex-direction: column !important; height: auto !important; }
+    rag-demo > div:nth-child(2) { min-height: 240px; border-right: none !important; border-top: 1px solid #e2ddd2; }
+    .work-detail, .work-detail > div { flex-wrap: wrap; }
+    .work-detail { padding-left: 32px !important; }
+  }
+  @media (max-width: 620px) {
+    .wrap > header, .wrap > div, .wrap > footer, .wrap reveal-fx > div, #work { padding-left: 22px !important; padding-right: 22px !important; }
+    .stats-grid { grid-template-columns: 1fr !important; }
+    .career-grid { grid-template-columns: 1fr !important; }
+    .footer-cta { flex-wrap: wrap; }
+    h1 { max-width: 100% !important; }
+  }
+</style>
+</head>
+<body>
+<div id="progress"></div>
+<div class="wrap">
+
+  <header style="display: flex; justify-content: space-between; align-items: baseline; padding: 32px 56px; border-bottom: 1px solid #e2ddd2;">
+    <span style="font-family: 'Newsreader', serif; font-size: 20px; font-weight: 500;">Sankalp Singam</span>
+    <nav style="display: flex; gap: 36px; font-size: 14px; letter-spacing: .04em; color: #6d675c;">
+      <a href="#work">Work</a><a href="#beyond">Beyond</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero-grid" style="display: grid; grid-template-columns: 1fr 300px; gap: 48px; align-items: end; padding: 88px 56px 0;">
+    <div>
+      <p style="margin: 0 0 20px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: .12em; color: #a2680f;">TECHNOLOGY &amp; OPERATIONS EXECUTIVE · ENERGY &amp; RESOURCES</p>
+      <h1 style="margin: 0; font-family: 'Newsreader', serif; font-weight: 300; font-size: clamp(40px, 6.5vw, 84px); line-height: 1.05; letter-spacing: -0.01em; max-width: 900px;">Bridging R&amp;D and operations at industrial scale.</h1>
+      <p style="margin: 20px 0 0; font-size: 17px; line-height: 1.6; color: #57524a; max-width: 620px; text-wrap: pretty;">Autonomy, decarbonisation and operational transformation across Fortescue, Rio Tinto, BHP and Liebherr, from first prototype to organisation wide deployment.</p>
+    </div>
+    <img src="photos/headshot.jpg" alt="Sankalp Singam" style="width: 300px; height: 380px; object-fit: cover; filter: grayscale(35%);">
+  </div>
+
+  <div class="stats-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; padding: 0 56px; border-top: 1px solid #e2ddd2; margin-top: 72px; border-bottom: 1px solid #e2ddd2;">
+    <div style="padding: 28px 0; border-right: 1px solid #e2ddd2;">
+      <div class="stat-num"><count-up prefix="$" value="2.8" decimals="1" suffix="B"></count-up></div>
+      <div class="stat-lbl">product partnership managed</div>
+    </div>
+    <div style="padding: 28px 24px; border-right: 1px solid #e2ddd2;">
+      <div class="stat-num"><count-up value="500" suffix="+"></count-up></div>
+      <div class="stat-lbl">assets supported nationally</div>
+    </div>
+    <div style="padding: 28px 24px; border-right: 1px solid #e2ddd2;">
+      <div class="stat-num"><count-up value="51" suffix="%"></count-up></div>
+      <div class="stat-lbl">Scope-1 emissions reduction program</div>
+    </div>
+    <div style="padding: 28px 24px;">
+      <div class="stat-num"><count-up prefix="$" value="50" suffix="M+"></count-up></div>
+      <div class="stat-lbl">annual budgets under management</div>
+    </div>
+  </div>
+
+  <reveal-fx>
+    <div class="principles-grid" style="display: grid; grid-template-columns: 300px 1fr 1fr 1fr; gap: 48px; padding: 72px 56px; border-bottom: 1px solid #e2ddd2;">
+      <h2 class="kicker">HOW I OPERATE</h2>
+      <div>
+        <div style="font-family: 'Newsreader', serif; font-size: 24px; font-weight: 400; line-height: 1.3;">R&amp;D only counts when it ships.</div>
+        <p style="margin: 12px 0 0; font-size: 15px; line-height: 1.65; color: #6d675c; text-wrap: pretty;">Prototypes are the easy part. I take technology through validation, regulation and change management into 24/7 operations.</p>
+      </div>
+      <div>
+        <div style="font-family: 'Newsreader', serif; font-size: 24px; font-weight: 400; line-height: 1.3;">Own the whole system.</div>
+        <p style="margin: 12px 0 0; font-size: 15px; line-height: 1.65; color: #6d675c; text-wrap: pretty;">Technical, commercial and regulatory in one frame — from SLA negotiation to bespoke permits for first-of-kind equipment.</p>
+      </div>
+      <div>
+        <div style="font-family: 'Newsreader', serif; font-size: 24px; font-weight: 400; line-height: 1.3;">Build teams that outlast you.</div>
+        <p style="margin: 12px 0 0; font-size: 15px; line-height: 1.65; color: #6d675c; text-wrap: pretty;">From 24/7 support organisations to 200-person R&amp;D wings — the org is the product that keeps fleets running.</p>
+      </div>
+    </div>
+  </reveal-fx>
+
+  <reveal-fx>
+    <div style="padding: 72px 56px; border-bottom: 1px solid #e2ddd2;">
+      <h2 class="kicker" style="margin-bottom: 40px;">CAREER</h2>
+      <div class="career-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border-top: 1px solid #1c1a16;">
+        <div style="padding: 24px 24px 0 0; border-top: 2px solid transparent; margin-top: -1px;">
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #857e71;">2017 — 2021</div>
+          <div style="font-family: 'Newsreader', serif; font-size: 26px; margin-top: 8px;">BHP</div>
+          <div style="font-size: 14px; color: #6d675c; margin-top: 6px; line-height: 1.5;">Operations improvement, pit-to-rail — process engineer to principal.</div>
+        </div>
+        <div style="padding: 24px 24px 0 0;">
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #857e71;">2021 — 2023</div>
+          <div style="font-family: 'Newsreader', serif; font-size: 26px; margin-top: 8px;">Rio Tinto</div>
+          <div style="font-size: 14px; color: #6d675c; margin-top: 6px; line-height: 1.5;">Principal, automation deployment &amp; commissioning across the Pilbara.</div>
+        </div>
+        <div style="padding: 24px 24px 0 0;">
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #857e71;">2023 — 2025</div>
+          <div style="font-family: 'Newsreader', serif; font-size: 26px; margin-top: 8px;">Fortescue</div>
+          <div style="font-size: 14px; color: #6d675c; margin-top: 6px; line-height: 1.5;">Senior manager, decarbonisation &amp; autonomy — 200-person R&amp;D wing.</div>
+        </div>
+        <div style="padding: 24px 0 0 0; border-top: 2px solid #a2680f; margin-top: -1px;">
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #a2680f;">2025 — NOW</div>
+          <div style="font-family: 'Newsreader', serif; font-size: 26px; margin-top: 8px;">Liebherr</div>
+          <div style="font-size: 14px; color: #6d675c; margin-top: 6px; line-height: 1.5;">National manager, mining technical services — 500+ assets nationally.</div>
+        </div>
+      </div>
+    </div>
+  </reveal-fx>
+
+  <div id="work" style="padding: 80px 56px 0;">
+    <reveal-fx><h2 class="kicker">SELECTED WORK</h2></reveal-fx>
+    <div style="display: flex; flex-direction: column;">
+
+      <div class="work-row" data-toggle="d1">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #a89f8e;">01</span>
+        <div>
+          <h3 style="margin: 0; font-family: 'Newsreader', serif; font-size: 30px; font-weight: 400;">RAG-based AI diagnostic agent</h3>
+          <p style="margin: 10px 0 0; font-size: 15px; line-height: 1.6; color: #6d675c; max-width: 540px;">Matches new equipment faults against historical case data to deliver verifiable fixes. Liebherr.</p>
+          <span class="tgl" style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #a2680f;">+ DETAILS</span>
+        </div>
+        <line-art kind="rag" stroke="rgba(60,52,38,.6)" accent="#a2680f" style="height: 110px;"></line-art>
+        <div class="metric" style="text-align: right;"><span style="font-family: 'Newsreader', serif; font-size: 30px;">−30%</span><div style="font-size: 13px; color: #857e71;">troubleshooting time</div></div>
+      </div>
+      <div class="work-detail" id="d1" style="flex-direction: column; gap: 24px;">
+        <div style="display: flex; gap: 48px;">
+          <span>Conceived and directed the agent architecture end-to-end, from concept to live deployment.</span>
+          <span>Every fix is verifiable — matched against the full history of resolved cases.</span>
+          <span>Runs inside the national support portal alongside map replay and automated log parsing.</span>
+        </div>
+        <div style="margin-right: 56px;">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+            <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: .1em; color: #a2680f;">LIVE — TRY THE AGENT</span>
+            <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #a89f8e;">SELECT A FAULT TO RUN</span>
+          </div>
+          <rag-demo ink="#1c1a16" muted="#857e71" accent="#a2680f" line="#e2ddd2" style="height: 340px; border-top: 1px solid #e2ddd2; border-bottom: 1px solid #e2ddd2;"></rag-demo>
+        </div>
+      </div>
+
+      <div class="work-row" data-toggle="d2">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #a89f8e;">02</span>
+        <div>
+          <h3 style="margin: 0; font-family: 'Newsreader', serif; font-size: 30px; font-weight: 400;">World-first zero-emissions powertrains</h3>
+          <p style="margin: 10px 0 0; font-size: 15px; line-height: 1.6; color: #6d675c; max-width: 540px;">Battery-electric and hydrogen fuel-cell prototypes, plus a 3MW single-plug MCS fast charger. Fortescue.</p>
+          <span class="tgl" style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #a2680f;">+ DETAILS</span>
+        </div>
+        <line-art kind="power" stroke="rgba(60,52,38,.6)" accent="#a2680f" style="height: 110px;"></line-art>
+        <div class="metric" style="text-align: right;"><span style="font-family: 'Newsreader', serif; font-size: 30px;">3MW</span><div style="font-size: 13px; color: #857e71;">single-plug fast charging, 2C</div></div>
+      </div>
+      <div class="work-detail" id="d2">
+        <span>Projects RoadRunner &amp; Europa — design, build, commissioning and performance testing.</span>
+        <span>Bespoke regulatory permits created for operating large batteries and hydrogen systems.</span>
+        <span>Established the O&amp;M philosophy for electric excavators and automated cable reelers.</span>
+      </div>
+
+      <div class="work-row" data-toggle="d3">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #a89f8e;">03</span>
+        <div>
+          <h3 style="margin: 0; font-family: 'Newsreader', serif; font-size: 30px; font-weight: 400;">Autonomous haulage, in-house</h3>
+          <p style="margin: 10px 0 0; font-size: 15px; line-height: 1.6; color: #6d675c; max-width: 540px;">In-house AHS development, deployment and commissioning across the Pilbara. Rio Tinto &amp; Fortescue.</p>
+          <span class="tgl" style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #a2680f;">+ DETAILS</span>
+        </div>
+        <line-art kind="ahs" stroke="rgba(60,52,38,.6)" accent="#a2680f" style="height: 110px;"></line-art>
+        <div class="metric" style="text-align: right;"><span style="font-family: 'Newsreader', serif; font-size: 30px;">30+</span><div style="font-size: 13px; color: #857e71;">major deployments delivered</div></div>
+      </div>
+      <div class="work-detail" id="d3">
+        <span>Built the first 24/7 tiered technical support organisation for autonomous fleets.</span>
+        <span>Architected an $8.5M p.a. SLA framework across a 170-truck autonomous fleet.</span>
+        <span>Road Network Audit Tool lifted annual throughput by 1.02 MT.</span>
+      </div>
+
+      <div class="work-row" data-toggle="d4" style="border-bottom: 1px solid #e2ddd2;">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #a89f8e;">04</span>
+        <div>
+          <h3 style="margin: 0; font-family: 'Newsreader', serif; font-size: 30px; font-weight: 400;">ML oversize-rock optimisation</h3>
+          <p style="margin: 10px 0 0; font-size: 15px; line-height: 1.6; color: #6d675c; max-width: 540px;">Machine learning cutting crusher downtime from oversize rocks across pit-to-rail. BHP.</p>
+          <span class="tgl" style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #a2680f;">+ DETAILS</span>
+        </div>
+        <line-art kind="ml" stroke="rgba(60,52,38,.6)" accent="#a2680f" style="height: 110px;"></line-art>
+        <div class="metric" style="text-align: right;"><span style="font-family: 'Newsreader', serif; font-size: 30px;">$40M</span><div style="font-size: 13px; color: #857e71;">revenue uplift</div></div>
+      </div>
+      <div class="work-detail" id="d4" style="border-bottom: 1px solid #e2ddd2;">
+        <span>Awaiting-feed delays at primary crushers cut 30% — 240 kT more crushed ore, $20M uplift.</span>
+        <span>Oversize-rock ML model delivered a further $40M revenue uplift.</span>
+        <span>Primary contact for pit-to-rail strategy and data analytics.</span>
+      </div>
+
+    </div>
+  </div>
+
+  <reveal-fx>
+    <div id="beyond" style="padding: 80px 56px;">
+      <h2 class="kicker">BEYOND WORK</h2>
+      <p style="margin: 0; font-family: 'Newsreader', serif; font-size: 30px; font-weight: 300; line-height: 1.4; max-width: 640px; text-wrap: pretty;">Off the mine site: single-origin espresso, and a barbell. I've competed at the <em>Australian Powerlifting Nationals</em> in the under-83kg class — best total <strong style="font-weight: 500;">627.5kg</strong>.</p>
+    </div>
+  </reveal-fx>
+
+  <footer id="contact" style="padding: 96px 56px 72px; border-top: 1px solid #e2ddd2;">
+    <p class="kicker" style="margin-bottom: 16px;">CONTACT</p>
+    <h2 style="margin: 0; font-family: 'Newsreader', serif; font-weight: 300; font-size: clamp(36px, 5vw, 56px); line-height: 1.1; max-width: 760px;">Let's talk.</h2>
+    <p style="margin: 24px 0 0; font-size: 17px; line-height: 1.6; color: #57524a; max-width: 560px; text-wrap: pretty;">Open to executive opportunities, consulting and advisory engagements across energy, mining and heavy-industry technology.</p>
+    <div class="footer-cta" style="display: flex; gap: 20px; align-items: center; margin-top: 40px;">
+      <a href="mailto:sankalp10singam@gmail.com" style="display: inline-block; background: #1c1a16; color: #faf8f4; padding: 16px 32px; font-size: 15px; letter-spacing: .02em;">Email me</a>
+      <a href="https://www.linkedin.com/in/sankalp-singam/" target="_blank" style="display: inline-block; border: 1px solid #c8c0b0; color: #1c1a16; padding: 15px 32px; font-size: 15px; letter-spacing: .02em;">LinkedIn ↗</a>
+      <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #857e71; margin-left: 12px;">PERTH, WA</span>
+    </div>
+  </footer>
+
+</div>
+<script>
+  document.querySelectorAll('.work-row').forEach(function (row) {
+    row.addEventListener('click', function () {
+      var d = document.getElementById(row.getAttribute('data-toggle'));
+      var open = d.classList.toggle('open');
+      row.querySelector('.tgl').textContent = open ? '− CLOSE' : '+ DETAILS';
+    });
+  });
+  var bar = document.getElementById('progress');
+  addEventListener('scroll', function () {
+    var h = document.documentElement;
+    bar.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight) * 100) + '%';
+  }, { passive: true });
+</script>
+</body>
+</html>
